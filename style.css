@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+.封面 {
+	background-image: url(%E5%B0%81%E9%9D%A2.jpg);
+	height: 648px;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+}
+.title {
+	width: 100%;
+	height: 65px;
+	background-color: #126C74;
+}
+
+
+h1 {
+	color: #8DD000;
+	font-size: 32px;
+	font-weight: 600;
+	align-items: center;
+	margin-top: 14px;
+	margin-left: 71px;
+}
+nav {
+	text-decoration: none;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 20pt;
+	font-weight: 600;
+	background-color: #6D6A6A;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+}
+nav a:link   {
+	color: #CDEC36;
+	text-decoration: none;
+}
+nav a:hover  {
+	color: #FAA700;
+	text-decoration: none;
+	font-size: 22pt;
+}
+.版權 {
+	width: 100%;
+	height: 14pt;
+	background-color: #7A7A7A;
+	color: #FFFFFF;
+	text-align: center;
+}
+body iframe {
+
+}
+.由來 {
+	background-color: #CBC9B1;
+	width: 100%;
+}
+.由來 .字 #a01 {
+}
+.由來 p {
+	color: #225804;
+	line-height: 24px;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.由來 h3 {
+	padding-left: 50px;
+	font-size: 20pt;
+	margin-top: 0px;
+	font-style: italic;
+	padding-top: 27px;
+}
+
+.由來 p2 {
+}
+
+
+
+.民間習俗 {
+	background-color: #B0C9C5;
+	width: 100%;
+}
+.民間習俗 ol {
+	text-align: left;
+}
+.menu {
+	display: flex;
+	padding-right: 32px;
+	margin-left: -297px;
+}
+
+
+.container nav a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.由來 .字 {
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+.由來 .圖片 img {
+	padding-left: 171px;
+}
+.由來 .圖 {
+	padding-left: 158px;
+}
